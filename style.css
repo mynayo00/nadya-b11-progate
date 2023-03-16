@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato',sans-serif;
+    text-decoration: none;
+}
+
+.jumbotron {
+    width: 100%;
+    margin: auto;
+    position: sticky;
+    background-color: white;
+}
+.namablog {
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    text-decoration: none;
+    padding: 0 10px;
+
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 25px;
+    color: rgb(53, 57, 55);
+
+}
+
+nav a:hover {
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(52, 169, 124);
+    transition: all 0.5s;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color:  rgb(52, 169, 124);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+header nav ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+}
+.home {
+    display: flex;
+    margin-top: 10px;
+}
+
+.kirihome h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    color: rgb(122, 178, 157);
+}
+.kirihome h1 span{
+    color: rgb(52, 169, 124);
+}
+
+.kirihome .tombol {
+    margin-top: 20px;
+}
+.kirihome h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: rgb(4, 4, 4);
+}
+.kirihome p {
+    text-align: justify;
+    margin-right: 10px;
+}
+
+
+.perusahaankolom {
+    display: flex;
+    margin-top: 10px;
+}
+
+.kiriperusahaan,
+.tengahperusahaan,
+.kananperusahaan{
+    flex-basis: 50%;
+    text-align: center;
+    line-height: 2;
+}
+
+.kiriperusahaan img,
+.tengahperusahaan img,
+.kananperusahaan img{
+    width: 80%;
+}
+
+.perusahaan h2 {
+    font-size: 30px;
+    text-align: center;
+    font-variant: small-caps;
+    color: rgb(52, 169, 124);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+
+
+footer {
+    padding: 10px;
+    color: white;
+    background-color: rgb(52, 169, 124);
+    font-weight: bold;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
+
+.footer {
+
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+  }
+
+
+@media only screen and (max-width: 768px) {
+    .home {
+        display: block;
+    }
+}
